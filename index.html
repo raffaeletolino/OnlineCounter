@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Counter</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/Style.css">
+  <script src="js/counter.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 align="center">Online Counter</h1>
+    </header>
+    <h4> Applicazione che permettere di aumentare o decrementare il valore del Counter</h4>
+    <p class="change" align="right"> <button class="buttcolor" onclick="cambiacolore()">Cambia colore Counter</button> </p>
+    <div class="counter" align="center">
+      <p id="color">Counter: <a id="counter">0</a></p>
+      <input class="butt" type="submit" value="Decrementa" onclick="myCount('sot')">
+      <input class="butt" type="submit" value="Aumenta" onclick="myCount('add')">
+    </div>
+    <div class="reset" align="center">
+      <input class="butt" type="submit" value="Reset" onclick="myCount('reset')">
+    </div>
+</div>
+<footer class="footer">
+  <h4 class="text-footer">20-21 RaffaeleTolino</h4>
+</footer>
+
+
+
+</body>
+</html>
+<body>
