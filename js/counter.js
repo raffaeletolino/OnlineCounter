@@ -5,7 +5,7 @@ var counter = 0;
       counter += 1;
       document.getElementById("counter").innerHTML = counter;
     }
-    if(op==="sot"){
+    if(op==="sub"){
       counter -= 1;
       document.getElementById("counter").innerHTML = counter;
     }
@@ -13,13 +13,12 @@ var counter = 0;
       counter = 0;
       document.getElementById("counter").innerHTML = counter;
     }
-
   }
 
 
-function cambiacolore() {
+function changeColor() {
   var Color= prompt("Inserire colore");
-  var elem = document.getElementById('color');
-  elem.style.color = Color;
+  var element = document.getElementById('color');
+  element.style.color = Color;
 
 }
