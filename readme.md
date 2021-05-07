@@ -2,7 +2,7 @@
 
 ### link dove è possibile trovare l'applicazione
 
-https://github.com/raffaeletolino/OnlineCounter
+https://wizardly-nobel-dbec4e.netlify.app
 
 ***
 
